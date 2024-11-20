@@ -39,7 +39,7 @@ class Sumo < Formula
 
   depends_on "proj"
   depends_on "python" if build.head? && build.with?("examples")
-  depends_on "xerces-c"
+  depends_on "prsanoori/sumo/xerces-c"
 
   depends_on "ffmpeg" => :optional
   depends_on "gdal" => :optional
